@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release 2017|Win32">
+      <Configuration>Release 2017</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release 2017|x64">
+      <Configuration>Release 2017</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{ffb1d5d6-b73b-43b8-8829-a96b26896dd3}</ProjectGuid>
+    <RootNamespace>ZDreamlight</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release 2017|Win32'">
+    <PlatformToolset>v141</PlatformToolset>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release 2017|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>ZDreamlight</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>ZDream_light</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>ZDreamlight</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>ZDream_light</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 2017|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;ZDREAMLIGHT_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;ZDREAMLIGHT_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <NoEntryPoint>false</NoEntryPoint>
+      <AdditionalOptions>LINK /NOENTRY msvcrt.lib /NODEFAULTLIB:nochkclr.obj /INCLUDE:__DllMainCRTStartup@12 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;ZDREAMLIGHT_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;ZDREAMLIGHT_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2017|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;ZDREAM_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <AdditionalIncludeDirectories>"C:\Program Files (x86)\Visual Leak Detector\include";%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <NoEntryPoint>true</NoEntryPoint>
+      <AdditionalLibraryDirectories>"C:\Program Files (x86)\Visual Leak Detector\lib\Win32";%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ZDream_light.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ZDream_light.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resource\ABD16.png" />
+    <Image Include="resource\ABD32.png" />
+    <Image Include="resource\ADD16.png" />
+    <Image Include="resource\ADD32.png" />
+    <Image Include="resource\ADI16.png" />
+    <Image Include="resource\ADI32.png" />
+    <Image Include="resource\ADN16.png" />
+    <Image Include="resource\ADN32.png" />
+    <Image Include="resource\APT16.png" />
+    <Image Include="resource\APT32.png" />
+    <Image Include="resource\ARCP16.png" />
+    <Image Include="resource\ARCP32.png" />
+    <Image Include="resource\ARE16.png" />
+    <Image Include="resource\ARE32.png" />
+    <Image Include="resource\ARI16.png" />
+    <Image Include="resource\ARI32.png" />
+    <Image Include="resource\ART16.png" />
+    <Image Include="resource\ART32.png" />
+    <Image Include="resource\ATC16.png" />
+    <Image Include="resource\ATC32.png" />
+    <Image Include="resource\AVE16.png" />
+    <Image Include="resource\AVE32.png" />
+    <Image Include="resource\AZL16.png" />
+    <Image Include="resource\AZL32.png" />
+    <Image Include="resource\AZT16.png" />
+    <Image Include="resource\AZT32.png" />
+    <Image Include="resource\BCO16.png" />
+    <Image Include="resource\BCO32.png" />
+    <Image Include="resource\BG16.png" />
+    <Image Include="resource\BG32.png" />
+    <Image Include="resource\BOP16.png" />
+    <Image Include="resource\BOP32.png" />
+    <Image Include="resource\BSF16.png" />
+    <Image Include="resource\BSF32.png" />
+    <Image Include="resource\BXR16.png" />
+    <Image Include="resource\BXR32.png" />
+    <Image Include="resource\BYL16.png" />
+    <Image Include="resource\BYL32.png" />
+    <Image Include="resource\CALC16.png" />
+    <Image Include="resource\CALC32.png" />
+    <Image Include="resource\CALS16.png" />
+    <Image Include="resource\CALS32.png" />
+    <Image Include="resource\CBL16.png" />
+    <Image Include="resource\CBL32.png" />
+    <Image Include="resource\CD16.png" />
+    <Image Include="resource\CD32.png" />
+    <Image Include="resource\CEX16.png" />
+    <Image Include="resource\CEX32.png" />
+    <Image Include="resource\CFB16.png" />
+    <Image Include="resource\CFB32.png" />
+    <Image Include="resource\CFM16.png" />
+    <Image Include="resource\CFM32.png" />
+    <Image Include="resource\CHDT16.png" />
+    <Image Include="resource\CHDT32.png" />
+    <Image Include="resource\CIM16.png" />
+    <Image Include="resource\CIM32.png" />
+    <Image Include="resource\CL16.png" />
+    <Image Include="resource\CL32.png" />
+    <Image Include="resource\CN16.png" />
+    <Image Include="resource\CN32.png" />
+    <Image Include="resource\COA16.png" />
+    <Image Include="resource\COA32.png" />
+    <Image Include="resource\CPL16.png" />
+    <Image Include="resource\CPL32.png" />
+    <Image Include="resource\CR16.png" />
+    <Image Include="resource\CR32.png" />
+    <Image Include="resource\CSR16.png" />
+    <Image Include="resource\CSR32.png" />
+    <Image Include="resource\CSS16.png" />
+    <Image Include="resource\CSS32.png" />
+    <Image Include="resource\CST16.png" />
+    <Image Include="resource\CST32.png" />
+    <Image Include="resource\CSW16.png" />
+    <Image Include="resource\CSW32.png" />
+    <Image Include="resource\CTC16.png" />
+    <Image Include="resource\CTC32.png" />
+    <Image Include="resource\CTE16.png" />
+    <Image Include="resource\CTE32.png" />
+    <Image Include="resource\CTL16.png" />
+    <Image Include="resource\CTL32.png" />
+    <Image Include="resource\CTP16.png" />
+    <Image Include="resource\CTP32.png" />
+    <Image Include="resource\CUT16.png" />
+    <Image Include="resource\CUT32.png" />
+    <Image Include="resource\DBOX16.png" />
+    <Image Include="resource\DBOX32.png" />
+    <Image Include="resource\DCEM16.png" />
+    <Image Include="resource\DCEM32.png" />
+    <Image Include="resource\DCG16.png" />
+    <Image Include="resource\DCG32.png" />
+    <Image Include="resource\DCLO16.png" />
+    <Image Include="resource\DCLO32.png" />
+    <Image Include="resource\DCON16.png" />
+    <Image Include="resource\DCON32.png" />
+    <Image Include="resource\DCW16.png" />
+    <Image Include="resource\DCW32.png" />
+    <Image Include="resource\DDD16.png" />
+    <Image Include="resource\DDD32.png" />
+    <Image Include="resource\DDE16.png" />
+    <Image Include="resource\DDE32.png" />
+    <Image Include="resource\DEE16.png" />
+    <Image Include="resource\DEE32.png" />
+    <Image Include="resource\DET16.png" />
+    <Image Include="resource\DET32.png" />
+    <Image Include="resource\DEX16.png" />
+    <Image Include="resource\DEX32.png" />
+    <Image Include="resource\DEXL16.png" />
+    <Image Include="resource\DEXL32.png" />
+    <Image Include="resource\DFB16.png" />
+    <Image Include="resource\DFB32.png" />
+    <Image Include="resource\DFO16.png" />
+    <Image Include="resource\DFO32.png" />
+    <Image Include="resource\DFS16.png" />
+    <Image Include="resource\DFS32.png" />
+    <Image Include="resource\DGR16.png" />
+    <Image Include="resource\DGR32.png" />
+    <Image Include="resource\DID16.png" />
+    <Image Include="resource\DID32.png" />
+    <Image Include="resource\DIDE16.png" />
+    <Image Include="resource\DIDE32.png" />
+    <Image Include="resource\DIJ16.png" />
+    <Image Include="resource\DIJ32.png" />
+    <Image Include="resource\DIMC16.png" />
+    <Image Include="resource\DIMC32.png" />
+    <Image Include="resource\DIP16.png" />
+    <Image Include="resource\DIP32.png" />
+    <Image Include="resource\DIT16.png" />
+    <Image Include="resource\DIT32.png" />
+    <Image Include="resource\DIVA16.png" />
+    <Image Include="resource\DIVA32.png" />
+    <Image Include="resource\DIVC16.png" />
+    <Image Include="resource\DIVC32.png" />
+    <Image Include="resource\DIVIDE16.png" />
+    <Image Include="resource\DIVIDE32.png" />
+    <Image Include="resource\DLF16.png" />
+    <Image Include="resource\DLF32.png" />
+    <Image Include="resource\DLG16.png" />
+    <Image Include="resource\DLG32.png" />
+    <Image Include="resource\DLP16.png" />
+    <Image Include="resource\DLP32.png" />
+    <Image Include="resource\DLS16.png" />
+    <Image Include="resource\DLS32.png" />
+    <Image Include="resource\DLT16.png" />
+    <Image Include="resource\DLT32.png" />
+    <Image Include="resource\DNL16.png" />
+    <Image Include="resource\DNL32.png" />
+    <Image Include="resource\DP16.png" />
+    <Image Include="resource\DP32.png" />
+    <Image Include="resource\DRH16.png" />
+    <Image Include="resource\DRH32.png" />
+    <Image Include="resource\DRI16.png" />
+    <Image Include="resource\DRI32.png" />
+    <Image Include="resource\DRL16.png" />
+    <Image Include="resource\DRL32.png" />
+    <Image Include="resource\DRP16.png" />
+    <Image Include="resource\DRP32.png" />
+    <Image Include="resource\DRWD16.png" />
+    <Image Include="resource\DRWD32.png" />
+    <Image Include="resource\DRWS16.png" />
+    <Image Include="resource\DRWS32.png" />
+    <Image Include="resource\DSLO16.png" />
+    <Image Include="resource\DSLO32.png" />
+    <Image Include="resource\DSP16.png" />
+    <Image Include="resource\DSP32.png" />
+    <Image Include="resource\DSR16.png" />
+    <Image Include="resource\DSR32.png" />
+    <Image Include="resource\DSTA16.png" />
+    <Image Include="resource\DSTA32.png" />
+    <Image Include="resource\DTA16.png" />
+    <Image Include="resource\DTA32.png" />
+    <Image Include="resource\DVB16.png" />
+    <Image Include="resource\DVB32.png" />
+    <Image Include="resource\DXR16.png" />
+    <Image Include="resource\DXR32.png" />
+    <Image Include="resource\EBB16.png" />
+    <Image Include="resource\EBB32.png" />
+    <Image Include="resource\EC16.png" />
+    <Image Include="resource\EC32.png" />
+    <Image Include="resource\EDV16.png" />
+    <Image Include="resource\EDV32.png" />
+    <Image Include="resource\EEL16.png" />
+    <Image Include="resource\EEL32.png" />
+    <Image Include="resource\ELEA16.png" />
+    <Image Include="resource\ELEA32.png" />
+    <Image Include="resource\ESN16.png" />
+    <Image Include="resource\ESN32.png" />
+    <Image Include="resource\ETC16.png" />
+    <Image Include="resource\ETC32.png" />
+    <Image Include="resource\ETD16.png" />
+    <Image Include="resource\ETD32.png" />
+    <Image Include="resource\EWI16.png" />
+    <Image Include="resource\EWI32.png" />
+    <Image Include="resource\EXL16.png" />
+    <Image Include="resource\EXL32.png" />
+    <Image Include="resource\EXTR16.png" />
+    <Image Include="resource\EXTR32.png" />
+    <Image Include="resource\FE16.png" />
+    <Image Include="resource\FE32.png" />
+    <Image Include="resource\FEL16.png" />
+    <Image Include="resource\FEL32.png" />
+    <Image Include="resource\FIR16.png" />
+    <Image Include="resource\FIR32.png" />
+    <Image Include="resource\FLM16.png" />
+    <Image Include="resource\FLM32.png" />
+    <Image Include="resource\FLO16.png" />
+    <Image Include="resource\FLO32.png" />
+    <Image Include="resource\FOO16.png" />
+    <Image Include="resource\FOO32.png" />
+    <Image Include="resource\FRE16.png" />
+    <Image Include="resource\FRE32.png" />
+    <Image Include="resource\FSE16.png" />
+    <Image Include="resource\FSE32.png" />
+    <Image Include="resource\FTE16.png" />
+    <Image Include="resource\FTE32.png" />
+    <Image Include="resource\FW16.png" />
+    <Image Include="resource\FW32.png" />
+    <Image Include="resource\GCS16.png" />
+    <Image Include="resource\GCS32.png" />
+    <Image Include="resource\GEL16.png" />
+    <Image Include="resource\GEL32.png" />
+    <Image Include="resource\GRP16.png" />
+    <Image Include="resource\GRP32.png" />
+    <Image Include="resource\GSE16.png" />
+    <Image Include="resource\GSE32.png" />
+    <Image Include="resource\GST16.png" />
+    <Image Include="resource\GST32.png" />
+    <Image Include="resource\HSD16.png" />
+    <Image Include="resource\HSD32.png" />
+    <Image Include="resource\ICO16.png" />
+    <Image Include="resource\ICO32.png" />
+    <Image Include="resource\INF16.png" />
+    <Image Include="resource\INF32.png" />
+    <Image Include="resource\INN16.png" />
+    <Image Include="resource\INN32.png" />
+    <Image Include="resource\IOF16.png" />
+    <Image Include="resource\IOF32.png" />
+    <Image Include="resource\JJJ16.png" />
+    <Image Include="resource\JJJ32.png" />
+    <Image Include="resource\LBT16.png" />
+    <Image Include="resource\LBT32.png" />
+    <Image Include="resource\LC16.png" />
+    <Image Include="resource\LC32.png" />
+    <Image Include="resource\LFR16.png" />
+    <Image Include="resource\LFR32.png" />
+    <Image Include="resource\LLO16.png" />
+    <Image Include="resource\LLO32.png" />
+    <Image Include="resource\LME16.png" />
+    <Image Include="resource\LME32.png" />
+    <Image Include="resource\LOE16.png" />
+    <Image Include="resource\LOE32.png" />
+    <Image Include="resource\LOF16.png" />
+    <Image Include="resource\LOF32.png" />
+    <Image Include="resource\LOL16.png" />
+    <Image Include="resource\LOL32.png" />
+    <Image Include="resource\LON16.png" />
+    <Image Include="resource\LON32.png" />
+    <Image Include="resource\LP16.png" />
+    <Image Include="resource\LP32.png" />
+    <Image Include="resource\LPF16.png" />
+    <Image Include="resource\LPF32.png" />
+    <Image Include="resource\LPO16.png" />
+    <Image Include="resource\LPO32.png" />
+    <Image Include="resource\LTH16.png" />
+    <Image Include="resource\LTH32.png" />
+    <Image Include="resource\LTP16.png" />
+    <Image Include="resource\LTP32.png" />
+    <Image Include="resource\LUL16.png" />
+    <Image Include="resource\LUL32.png" />
+    <Image Include="resource\MCO16.png" />
+    <Image Include="resource\MCO32.png" />
+    <Image Include="resource\MDIM16.png" />
+    <Image Include="resource\MDIM32.png" />
+    <Image Include="resource\MDT16.png" />
+    <Image Include="resource\MDT32.png" />
+    <Image Include="resource\MDTE16.png" />
+    <Image Include="resource\MDTE32.png" />
+    <Image Include="resource\MDTF16.png" />
+    <Image Include="resource\MDTF32.png" />
+    <Image Include="resource\MDTH16.png" />
+    <Image Include="resource\MDTH32.png" />
+    <Image Include="resource\MDWG16.png" />
+    <Image Include="resource\MDWG32.png" />
+    <Image Include="resource\MINI16.png" />
+    <Image Include="resource\MINI32.png" />
+    <Image Include="resource\MIP16.png" />
+    <Image Include="resource\MIP32.png" />
+    <Image Include="resource\MLS16.png" />
+    <Image Include="resource\MLS32.png" />
+    <Image Include="resource\MPL16.png" />
+    <Image Include="resource\MPL32.png" />
+    <Image Include="resource\MSC16.png" />
+    <Image Include="resource\MSC32.png" />
+    <Image Include="resource\MTS16.png" />
+    <Image Include="resource\MTS32.png" />
+    <Image Include="resource\MUIN16.png" />
+    <Image Include="resource\MUIN32.png" />
+    <Image Include="resource\NSLO16.png" />
+    <Image Include="resource\NSLO32.png" />
+    <Image Include="resource\OBL16.png" />
+    <Image Include="resource\OBL32.png" />
+    <Image Include="resource\OCO16.png" />
+    <Image Include="resource\OCO32.png" />
+    <Image Include="resource\OLO16.png" />
+    <Image Include="resource\OLO32.png" />
+    <Image Include="resource\PEL16.png" />
+    <Image Include="resource\PEL32.png" />
+    <Image Include="resource\PLUS16.png" />
+    <Image Include="resource\PLUS32.png" />
+    <Image Include="resource\PTCS16.png" />
+    <Image Include="resource\PTCS32.png" />
+    <Image Include="resource\PW16.png" />
+    <Image Include="resource\PW32.png" />
+    <Image Include="resource\RBC16.png" />
+    <Image Include="resource\RBC32.png" />
+    <Image Include="resource\RBI16.png" />
+    <Image Include="resource\RBI32.png" />
+    <Image Include="resource\RC16.png" />
+    <Image Include="resource\RC32.png" />
+    <Image Include="resource\RCE16.png" />
+    <Image Include="resource\RCE32.png" />
+    <Image Include="resource\RDT16.png" />
+    <Image Include="resource\RDT32.png" />
+    <Image Include="resource\RDV16.png" />
+    <Image Include="resource\RDV32.png" />
+    <Image Include="resource\REB16.png" />
+    <Image Include="resource\REB32.png" />
+    <Image Include="resource\REF16.png" />
+    <Image Include="resource\REF32.png" />
+    <Image Include="resource\REL16.png" />
+    <Image Include="resource\REL32.png" />
+    <Image Include="resource\RET16.png" />
+    <Image Include="resource\RET32.png" />
+    <Image Include="resource\REVC16.png" />
+    <Image Include="resource\REVC32.png" />
+    <Image Include="resource\RF16.png" />
+    <Image Include="resource\RF32.png" />
+    <Image Include="resource\RHB16.png" />
+    <Image Include="resource\RHB32.png" />
+    <Image Include="resource\ROADL16.png" />
+    <Image Include="resource\ROADL32.png" />
+    <Image Include="resource\RTN16.png" />
+    <Image Include="resource\RTN32.png" />
+    <Image Include="resource\RXL16.png" />
+    <Image Include="resource\RXL32.png" />
+    <Image Include="resource\RZV16.png" />
+    <Image Include="resource\RZV32.png" />
+    <Image Include="resource\SCD16.png" />
+    <Image Include="resource\SCD32.png" />
+    <Image Include="resource\SD16.png" />
+    <Image Include="resource\SD32.png" />
+    <Image Include="resource\SDS16.png" />
+    <Image Include="resource\SDS32.png" />
+    <Image Include="resource\SED16.png" />
+    <Image Include="resource\SED32.png" />
+    <Image Include="resource\SLAT16.png" />
+    <Image Include="resource\SLAT32.png" />
+    <Image Include="resource\SLL16.png" />
+    <Image Include="resource\SLL32.png" />
+    <Image Include="resource\SLT16.png" />
+    <Image Include="resource\SLT32.png" />
+    <Image Include="resource\STP16.png" />
+    <Image Include="resource\STP32.png" />
+    <Image Include="resource\STT16.png" />
+    <Image Include="resource\STT32.png" />
+    <Image Include="resource\SUB16.png" />
+    <Image Include="resource\SUB32.png" />
+    <Image Include="resource\SWP16.png" />
+    <Image Include="resource\SWP32.png" />
+    <Image Include="resource\TA16.png" />
+    <Image Include="resource\TA32.png" />
+    <Image Include="resource\TAR16.png" />
+    <Image Include="resource\TAR32.png" />
+    <Image Include="resource\TAS16.png" />
+    <Image Include="resource\TAS32.png" />
+    <Image Include="resource\TCF16.png" />
+    <Image Include="resource\TCF32.png" />
+    <Image Include="resource\TCO16.png" />
+    <Image Include="resource\TCO32.png" />
+    <Image Include="resource\TEC16.png" />
+    <Image Include="resource\TEC32.png" />
+    <Image Include="resource\TEI16.png" />
+    <Image Include="resource\TEI32.png" />
+    <Image Include="resource\TER16.png" />
+    <Image Include="resource\TER32.png" />
+    <Image Include="resource\TF16.png" />
+    <Image Include="resource\TF32.png" />
+    <Image Include="resource\THP16.png" />
+    <Image Include="resource\THP32.png" />
+    <Image Include="resource\TIMES16.png" />
+    <Image Include="resource\TIMES32.png" />
+    <Image Include="resource\TJO16.png" />
+    <Image Include="resource\TJO32.png" />
+    <Image Include="resource\TMP16.png" />
+    <Image Include="resource\TMP32.png" />
+    <Image Include="resource\TPL16.png" />
+    <Image Include="resource\TPL32.png" />
+    <Image Include="resource\TSW16.png" />
+    <Image Include="resource\TSW32.png" />
+    <Image Include="resource\TTC16.png" />
+    <Image Include="resource\TTC32.png" />
+    <Image Include="resource\TTE16.png" />
+    <Image Include="resource\TTE32.png" />
+    <Image Include="resource\TTP16.png" />
+    <Image Include="resource\TTP32.png" />
+    <Image Include="resource\TU16.png" />
+    <Image Include="resource\TU32.png" />
+    <Image Include="resource\ULA16.png" />
+    <Image Include="resource\ULA32.png" />
+    <Image Include="resource\UXR16.png" />
+    <Image Include="resource\UXR32.png" />
+    <Image Include="resource\VEL16.png" />
+    <Image Include="resource\VEL32.png" />
+    <Image Include="resource\VOL16.png" />
+    <Image Include="resource\VOL32.png" />
+    <Image Include="resource\VON16.png" />
+    <Image Include="resource\VON32.png" />
+    <Image Include="resource\VSC16.png" />
+    <Image Include="resource\VSC32.png" />
+    <Image Include="resource\VSD16.png" />
+    <Image Include="resource\VSD32.png" />
+    <Image Include="resource\WCZ16.png" />
+    <Image Include="resource\WCZ32.png" />
+    <Image Include="resource\XFC16.png" />
+    <Image Include="resource\XFC32.png" />
+    <Image Include="resource\XY16.png" />
+    <Image Include="resource\XY32.png" />
+    <Image Include="resource\XYB16.png" />
+    <Image Include="resource\XYB32.png" />
+    <Image Include="resource\ZBC16.png" />
+    <Image Include="resource\ZBC32.png" />
+    <Image Include="resource\ZDCMD16.png" />
+    <Image Include="resource\ZDCMD32.png" />
+    <Image Include="resource\ZDHELP16.png" />
+    <Image Include="resource\ZDHELP32.png" />
+    <Image Include="resource\ZVL16.png" />
+    <Image Include="resource\ZVL32.png" />
+    <Image Include="resource\ZVT16.png" />
+    <Image Include="resource\ZVT32.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

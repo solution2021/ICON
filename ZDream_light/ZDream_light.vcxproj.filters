@@ -1,0 +1,1363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ZDream_light.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ZDream_light.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resource\ABD16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ABD32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ADD16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ADD32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ADI16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ADI32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ADN16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ADN32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\APT16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\APT32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ARCP16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ARCP32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ARE16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ARE32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ARI16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ARI32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ART16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ART32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ATC16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ATC32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\AVE16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\AVE32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\AZL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\AZL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\AZT16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\AZT32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\BCO16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\BCO32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\BG16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\BG32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\BOP16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\BOP32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\BSF16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\BSF32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\BXR16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\BXR32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\BYL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\BYL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CALC16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CALC32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CALS16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CALS32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CBL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CBL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CD16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CD32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CEX16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CEX32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CFB16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CFB32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CFM16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CFM32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CHDT16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CHDT32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CIM16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CIM32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CN16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CN32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\COA16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\COA32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CPL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CPL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CR16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CR32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CSR16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CSR32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CSS16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CSS32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CST16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CST32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CSW16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CSW32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CTC16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CTC32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CTE16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CTE32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CTL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CTL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CTP16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CTP32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CUT16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\CUT32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DBOX16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DBOX32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DCEM16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DCEM32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DCG16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DCG32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DCLO16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DCLO32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DCON16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DCON32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DCW16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DCW32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DDD16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DDD32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DDE16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DDE32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DEE16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DEE32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DET16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DET32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DEX16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DEX32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DEXL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DEXL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DFB16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DFB32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DFO16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DFO32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DFS16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DFS32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DGR16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DGR32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DID16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DID32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DIDE16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DIDE32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DIJ16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DIJ32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DIMC16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DIMC32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DIP16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DIP32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DIT16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DIT32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DIVA16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DIVA32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DIVIDE16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DIVIDE32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DLF16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DLF32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DLG16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DLG32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DLP16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DLP32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DLS16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DLS32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DLT16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DLT32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DNL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DNL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DP16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DP32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DRH16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DRH32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DRI16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DRI32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DRL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DRL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DRP16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DRP32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DRWD16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DRWD32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DRWS16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DRWS32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DSLO16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DSLO32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DSP16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DSP32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DSR16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DSR32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DSTA16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DSTA32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DTA16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DTA32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DVB16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DVB32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DXR16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DXR32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\EBB16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\EBB32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\EC16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\EC32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\EDV16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\EDV32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\EEL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\EEL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ELEA16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ELEA32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ESN16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ESN32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ETC16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ETC32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ETD16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ETD32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\EXL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\EXL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\EXTR16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\EXTR32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\FE16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\FE32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\FEL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\FEL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\FIR16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\FIR32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\FLM16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\FLM32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\FLO16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\FLO32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\FOO16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\FOO32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\FRE16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\FRE32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\FSE16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\FSE32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\FTE16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\FTE32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\FW16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\FW32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\GCS16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\GCS32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\GEL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\GEL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\GRP16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\GRP32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\GSE16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\GSE32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\GST16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\GST32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\HSD16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\HSD32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ICO16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ICO32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\IOF16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\IOF32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\JJJ16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\JJJ32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LBT16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LBT32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LC16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LC32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LFR16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LFR32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LLO16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LLO32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LME16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LME32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LOE16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LOE32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LOF16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LOF32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LOL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LOL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LON16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LON32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LP16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LP32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LPF16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LPF32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LPO16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LPO32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LTH16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LTH32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LTP16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LTP32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LUL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\LUL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MCO16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MCO32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MDIM16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MDIM32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MDT16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MDT32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MDTE16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MDTE32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MDTF16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MDTF32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MDTH16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MDTH32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MDWG16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MDWG32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MINI16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MINI32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MIP16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MIP32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MLS16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MLS32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MPL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MPL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MSC16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MSC32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MTS16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MTS32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MUIN16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\MUIN32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\NSLO16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\NSLO32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\OBL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\OBL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\OCO16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\OCO32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\OLO16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\OLO32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\PEL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\PEL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\PLUS16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\PLUS32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\PTCS16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\PTCS32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\PW16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\PW32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\RBC16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\RBC32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\RBI16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\RBI32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\RC16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\RC32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\RCE16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\RCE32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\RDT16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\RDT32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\RDV16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\RDV32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\REB16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\REB32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\REF16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\REF32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\REL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\REL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\RET16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\RET32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\RF16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\RF32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\RHB16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\RHB32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ROADL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ROADL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\RTN16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\RTN32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\RXL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\RXL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\RZV16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\RZV32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\SCD16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\SCD32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\SD16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\SD32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\SDS16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\SDS32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\SED16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\SED32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\SLAT16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\SLAT32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\SLL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\SLL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\SLT16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\SLT32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\STP16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\STP32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\STT16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\STT32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\SUB16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\SUB32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TA16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TA32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TAR16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TAR32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TAS16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TAS32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TCF16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TCF32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TCO16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TCO32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TEC16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TEC32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TEI16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TEI32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TER16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TER32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TF16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TF32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\THP16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\THP32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TIMES16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TIMES32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TJO16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TJO32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TMP16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TMP32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TPL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TPL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TSW16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TSW32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TTE16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TTE32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TTP16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TTP32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TU16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TU32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ULA16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ULA32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\UXR16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\UXR32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\VEL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\VEL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\VOL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\VOL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\VON16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\VON32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\VSC16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\VSC32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\VSD16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\VSD32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\WCZ16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\WCZ32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\XFC16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\XFC32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\XY16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\XY32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\XYB16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\XYB32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ZBC16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ZBC32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ZDCMD16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ZDCMD32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ZDHELP16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ZDHELP32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ZVL16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ZVL32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ZVT16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\ZVT32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DIVC16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\DIVC32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\EWI16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\EWI32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\REVC16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\REVC32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TTC16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\TTC32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\INN16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\INN32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\SWP16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\SWP32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\INF16.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resource\INF32.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
